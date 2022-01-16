@@ -19,7 +19,6 @@ const App = () => {
   }
 
   const showWinner = () => {
-    // debugger;
     if(csvData !== null){
       if(csvData.length > 2){
         const rowLength = csvData.length;
@@ -29,7 +28,7 @@ const App = () => {
         //saving data to array
         for(let i = 1; i<columnLenght; i++){
           let tempVal = 0;
-          pointsArray.push(new Array(columnLenght-1));
+          pointsArray.push(new Array(0));
           for(let j = 1; j<rowLength; j++){
             pointsArray[flagForPointsArray][tempVal]=csvData[j][i];
             tempVal++;
