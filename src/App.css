@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,7 +35,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .input-files-wrapper{
   display: flex;
@@ -51,8 +51,17 @@
 .winners-name-wrapper{
   display:flex;
   flex-direction: column;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   font-size: 25px;
+}
+
+.winning-teams-style{
+  padding-bottom: 10px;
+}
+
+.winners-title{
+  font-size: 25px;
+  padding-bottom: 10px;
 }
 
 .winners-name{
@@ -79,4 +88,29 @@ button {
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+
+.rest-of-teams-title{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.teams-name-title{ 
+  font-size: 18px;
+}
+
+.teams-name{
+  font-size: 20px;
+  font-weight: 600;
+  /* padding-bottom: 20px; */
+}
+
+.teams-points{
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.style-for-points{
+  font-weight: 600;
 }
